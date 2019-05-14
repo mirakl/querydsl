@@ -6,7 +6,7 @@ services:
 env:
   matrix:
     - MODULE=!querydsl-scala PROFILES=all,travis,examples
-    - MODULE=!querydsl-jpa-codegen PROFILES=jpa,hibernate5,travis,examples
+    - MODULE=!querydsl-jpa-codegen PROFILES=jpa,travis,examples
     - MODULE=querydsl-scala PROFILES=all,travis
 install: /bin/true
 before_script:
